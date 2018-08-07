@@ -1,0 +1,9 @@
+
+
+1. Distinct finds the unique element. 
+2. group by finds the uinique elements as well. 
+3. when group by isu sed without the aggreagtion. sql query engine create the same execution plan as dsitinct. 
+
+4. A DISTINCT and GROUP BY usually generate the same query plan, so performance should be the same across both query constructs
+
+5. so use distinct if you want to remove the unique elements. 
