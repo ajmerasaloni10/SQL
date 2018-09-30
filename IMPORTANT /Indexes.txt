@@ -1,4 +1,0 @@
-INDEX : 
-
-	* Fast retreival of the data. 
-	
