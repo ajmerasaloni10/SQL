@@ -1,0 +1,24 @@
+ Unique Key 
+
+1. Per table more than one unique constraint. 
+2. can be nullable. 
+3. when a unqiue constraint is defined database automatically creates UNIQUE INDEXES. 
+
+
+
+
+
+
+
+
+
+ Primary key 
+
+ 1. Per table only one primary key. 
+ 2. can not be null 
+ 2. MS SQL SERVER : Generate 
+ 	UNIQUE CLUSTERED INDEX for primary key 
+ 	and NON CLUSTERED INDEX For unique constraint
+
+
+

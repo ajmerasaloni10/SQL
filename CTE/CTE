@@ -1,0 +1,11 @@
+
+Difference between CTE and subquery. 
+
+
+* Very similar
+
+
+
+
+
+* CTE can be used recursively, a subquery cannot 

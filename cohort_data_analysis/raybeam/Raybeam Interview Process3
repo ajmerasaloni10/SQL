@@ -1,0 +1,95 @@
+Raybeam Interview Process
+Edit Contact Info
+Sign out
+Due in: 2:23
+7 Questions in Section
+Question 1
+Which of the following is false for GROUP BY usage?
+Choices:
+
+SELECT column(s) not in the GROUP BY statement must be aggregated
+SELECT column(s) can include any number of aggregate functions
+GROUP BY statements support grouping multiple columns for each SELECT statement
+GROUP BY column(s) must be included in the SELECT statement
+Question 2
+tblCars
+CarID INT 
+INT PRIMARY KEY	CarMake 
+VARCHAR(255)	CarYear 
+INT
+1	Tesla	2020
+2	Jeep	2015
+Which of the following SQL statements is valid given tblCars?
+Choices:
+
+INSERT INTO tblCars (CarID, CarMake, CarYear) VALUES 3, ‘Honda’, ‘yellow’;
+INSERT INTO tblCars (CarMake, CarYear) VALUES (‘Honda’, ‘yellow’);
+INSERT (‘Honda’, ‘yellow’) INTO tblCars;
+INSERT INTO tblCars (CarMake, CarYear) SELECT 3, ‘Honda’, ‘yellow’;
+Question 3
+Primary keys must be unique
+Choices:
+
+True
+False
+Question 4
+Which of the following SQL statements is valid for converting day_of_week (Sunday, Monday, etc.) to ‘Weekday’ and ‘Weekend’ from a table called ‘Dates’?
+Choices:
+
+SELECT
+  CASE
+    WHEN day_of_week = 'Saturday' OR 'Sunday' THEN 'Weekend'
+    ELSE 'Weekday' END
+FROM Dates;
+SELECT
+  CASE
+    WHEN day_of_week = ‘Sunday’ THEN ‘Weekend’
+    ELSE ‘Weekday’
+    WHEN day_of_week = ‘Saturday’ THEN ‘Weekend’
+  END
+FROM Dates;
+SELECT
+  CASE
+    WHEN day_of_week = ‘Sunday’ THEN ‘Weekend’
+    WHEN day_of_week = ‘Saturday’ THEN ‘Weekend’
+    ELSE ‘Weekday’ END
+FROM Dates;
+SELECT
+  CASE WHEN day_of_week = ‘Sunday’ THEN ‘Weekend’
+  CASE WHEN day_of_week = ‘Saturday’ THEN ‘Weekend’
+  ELSE ‘Weekday’
+  END
+FROM Dates;
+Question 5
+Which of the following keywords compares an expression to multiple, specific values?
+Choices:
+
+BEGIN // END
+IN
+ON
+SWITCH // CASE
+Question 6
+tblCars
+CarID INT 
+INT PRIMARY KEY	CarMake 
+VARCHAR(255)	CarYear 
+INT
+1	Tesla	2020
+2	Jeep	2015
+Which of the following SQL statements is valid given tblCars?
+Choices:
+
+DELETE SET CarID = NULL FROM tblCars WHERE CarID = 1;
+DELETE WHERE CarID = 1 FROM tblCars;
+DELETE CarID=1 FROM tblCars;
+DELETE FROM tblCars WHERE CarID = 1;
+Question 7
+Which of the following is a valid use-case for a VIEW?
+Choices:
+
+Creating a backup copy of the underlying tables
+Query a table without locking the underlying tables
+Automating manipulations to the underlying tables for queries
+Enhance database performance
+
+raybeam-hr@raybeam.com© 1997 - 2018 Raybeam, Inc. All Rights Reserved

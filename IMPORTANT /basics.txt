@@ -1,0 +1,21 @@
+ROLL_NO	  NAME	ADDRESS	PHONE		AGE
+1	 	  RAM	DELHI	9455123451	18
+2		RAMESH	GURGAON	9652431543	18
+3		SUJIT	ROHTAK	9156253131	20
+4		SURESH	DELHI	9156768971	18
+
+
+
+ATTRIBUTE : 
+ROLL_NO, NAME, ADDRESS, PHONE and AGE --> reperesents ATTRIBUTE
+
+DEGREE: 
+Number of attributes in the realtion is known as degree of the realtion. 
+above tables degree is 5  
+
+TUPLE: 
+each row is tuple. 
+In the above, relation contains 4 tuple. 
+
+
+

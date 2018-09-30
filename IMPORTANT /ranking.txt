@@ -1,0 +1,40 @@
+RANKING : 
+
+
+# IN SQL SERVER there are 4 ranking functions : 
+
+	1. ROW_NUMBER 
+	2. DENSE_RANK 
+	3. RANK 
+	4. NTILE
+
+
+
+1. ROW NUMBER : 
+
+	* ROW_NUMBER() ranking window function.
+	* returns unique sequential value for each row. 
+	* Assign consective ranks  1, 2, 3 
+	* If there are duplicate values within the row set, the ranking ID numbers will be assigned arbitrarily. 
+	* If the PARTITION BY clause is specified, the ranking row number will be reset for each partition
+
+
+2. RANK() 
+
+	* Rank assigns unique rank to each row 
+	* assigns same rank for dupliate values 
+	* leaves gap between the ranks 
+	1
+	1
+	3
+
+
+3. DENSE_RANK() 
+
+	* does not leave gaps between the ranks. 
+	1
+	1
+	2
+
+
+	

@@ -1,0 +1,32 @@
+
+
+Second Highest salary:
+
+
+solution 1 
+
+	select max(salary) as SecondHighestSalary
+	from Employee
+	where salary < (select max(salary)
+	from Employee)
+
+
+solution 2 
+
+	select
+		 IFNULL (
+		 			(SELECT DISTINCT salary 
+		 			FROM Employee
+		 			ORDER BY salary desc
+		 			LIMIT 1 OFFSET 1 ) , 
+
+		 			NULL 
+		 	) as SecondHighestSalary 
+
+
+
+LIMIT and OFFSET :
+
+ offset 1 ( leave 1st record ) and 
+ limit 1  ( start from second for one record  
+
