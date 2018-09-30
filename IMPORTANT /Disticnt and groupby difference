@@ -7,3 +7,7 @@
 4. A DISTINCT and GROUP BY usually generate the same query plan, so performance should be the same across both query constructs
 
 5. so use distinct if you want to remove the unique elements. 
+
+
+******************* GROUP BY *********************
+An attribute which is not a part of GROUP BY clause can’t be used for selection. Any attribute which is part of GROUP BY CLAUSE can be used for selection but it is not mandatory.

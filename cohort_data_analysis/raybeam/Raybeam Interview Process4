@@ -1,0 +1,60 @@
+Raybeam Interview Process
+Edit Contact Info
+Sign out
+Due in: 4:45
+3 Questions in Section
+Question 1
+tblUser
+UserID INT 
+PRIMARY KEY	UserName 
+VARCHAR(255)	UserBirthday 
+DATETIME or TIMESTAMP
+1	Jake	1946-07-04
+2	Matt	1938-12-20
+3	David	1984-04-15
+4	Rob	2000-03-09
+5	Michael	1990-11-30
+6	Mark	1997-03-11
+7	Sean	1958-02-01
+
+
+tblOrder
+OrderID INT 
+PRIMARY KEY	OrderDate 
+DATETIME or TIMESTAMP	UserID 
+INT	OrderStatus 
+VARCHAR(128)	OrderTotalCost 
+FLOAT
+1	2013-02-03	1	Complete	1086.25
+2	2013-08-09	1	Complete	1206.02
+3	2014-01-30	4	Paid	500.40
+4	2014-02-21	6	Shipped	756.90
+5	2014-03-07	3	Cancelled	80.65
+How many rows are returned in the following SELECT? 
+SELECT * 
+FROM tblUsers u 
+INNER JOIN tblOrders o ON u.UserID = o.UserID
+Choices:
+
+7
+8
+5
+0
+Question 2
+What join should be used to generate a table that contains all users and their orders (if they have any)?
+Choices:
+
+Left Join
+Cross Join
+Inner Join
+Right Join
+Question 3
+What join should be used to generate a table that contains only the users who have placed an order?
+Choices:
+
+Left Join
+Inner Join
+Outer Join
+Cross Join
+
+raybeam-hr@raybeam.com© 1997 - 2018 Raybeam, Inc. All Rights Reserved

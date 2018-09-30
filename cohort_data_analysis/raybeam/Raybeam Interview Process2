@@ -1,0 +1,61 @@
+Raybeam Interview Process
+Edit Contact Info
+Sign out
+Continue
+Your Application - Analyst
+Welcome to the Phase 1 of the Analyst Interview Process.
+
+This test is broken down into a several sections, each section is individually timed. The entirety of the examination will take approximately 20 minutes. Several sections will consist of technical, database oriented questions, while others will ask you about your personal background and experiences. All technical questions are database system agnostic and will be testing your understanding of database concepts rather than exact syntax or specific systems. Please take your time to review the tables below as they will be used in the first section of your test. The tables will also be displayed alongside each question for your reference.
+
+
+Note: Timed sections will be auto submitted once time runs out.
+
+Thank you for uploading your resume! 
+SALONI_AJMERA_RESUME.pdf
+
+Remove resume for re-upload
+
+Section	# Questions	Time Limit
+completed	Section 1: HR - Analyst	2	None
+completed	Section 2: Analyst: Joining	3	5 minutes
+time up	Section 3: Analyst: Keyword	7	5 minutes
+Section 4: Analyst: Design	3	5 minutes
+Section 5: Analyst: Performance	2	2 minutes
+Section 6: Analyst: Logic	2	2 minutes
+Context for Section Questions
+tblUser
+UserID INT 
+PRIMARY KEY	UserName 
+VARCHAR(255)	UserBirthday 
+DATETIME or TIMESTAMP
+1	Jake	1946-07-04
+2	Matt	1938-12-20
+3	David	1984-04-15
+4	Rob	2000-03-09
+5	Michael	1990-11-30
+6	Mark	1997-03-11
+7	Sean	1958-02-01
+
+
+tblOrder
+OrderID INT 
+PRIMARY KEY	OrderDate 
+DATETIME or TIMESTAMP	UserID 
+INT	OrderStatus 
+VARCHAR(128)	OrderTotalCost 
+FLOAT
+1	2013-02-03	1	Complete	1086.25
+2	2013-08-09	1	Complete	1206.02
+3	2014-01-30	4	Paid	500.40
+4	2014-02-21	6	Shipped	756.90
+5	2014-03-07	3	Cancelled	80.65
+Back to positions available
+
+raybeam-hr@raybeam.com© 1997 - 2018 Raybeam, Inc. All Rights Reserved
+
+
+
+
+
+What does the following statement evaluate to? 
+(4 BETWEEN 2 AND 4) AND (4 BETWEEN 4 AND 20)
